@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font awesome cdn font icon css -->
+    <link
+      rel="stylesheet"
+      href="https:cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+
+  <body>
+    <div class="hero-header">
+      <div class="wrapper">
+        <header>
+          <nav>
+            <div class="togglebtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="navlinks">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="container">
+          <div class="hero-pic">
+            <img src="./assets/aamir.jpg" alt="profile pic" class="liquid" />
+          </div>
+          <div class="hero-text">
+            <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
+            <h1>Aamir Indi</h1>
+            <p>
+              Upcoming B. E. graduate(2024) offering a strong foundation in
+              software engineering and programming principles across multiple
+              platforms. Quick learner and can master new technologies.
+              <br />
+              <br />
+              B.E. in Artificial Intelligence and Data Science June 2020 - June
+              2024 Rizvi College of Engineering, Mumbai.
+            </p>
+
+            <div class="btn-group">
+              <a
+                href="./assets/Mohd Aamir Indi Resume.pdf"
+                class="btn active"
+                download
+                >Download CV</a
+              >
+              <a href="#" class="btn">Contact</a>
+            </div>
+
+            <div class="social">
+              <a href="https://www.linkedin.com/in/mohd-aamir-indi/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/aamirindi"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.instagram.com/aaaa_miir/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <h5>
+          <span> Contact me </span>and <span> Navbar </span>
+          , doesn't have any functionality.
+          <br />
+          Other than that you can download my CV and you may visit to my social
+          media.
+        </h5>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+      //hide navbar
+      let togglebtn = document.querySelector(".togglebtn");
+      let nav = document.querySelector(".navlinks");
+      let links = document.querySelector(".navlinks li");
+
+      togglebtn.addEventListener("click", function () {
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+      });
+      //typed animation
+      let typed = new Typed(".input", {
+        strings: [
+          "Frontend Developer",
+          "React lover",
+          "Web Developer",
+          "Python Developer",
+          "Tailwind, Bootstrap...",
+          "Angular",
+        ],
+        typedSpeed: 150,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

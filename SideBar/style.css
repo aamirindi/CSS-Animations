@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+  /* border: 1px solid white; */
+}
+
+.container {
+  padding: 0.5rem 0rem 0rem 0.5rem;
+  width: 200px;
+  height: 110px;
+  border-bottom-right-radius: 100%;
+  background-color: rebeccapurple;
+  clip-path: circle(50% at 0 0);
+  transition: all 2s ease;
+  color: white;
+  font-weight: 600;
+}
+
+.container:hover {
+  clip-path: circle(100%);
+  height: 280px;
+  width: 120px;
+}
+
+img {
+  padding-left: 0;
+  margin: 10px 0 10px 0;
+  width: 60px;
+  border-radius: 100%;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
