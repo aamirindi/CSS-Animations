@@ -4,11 +4,11 @@ Porfolio : https://enchanting-sunburst-c13117.netlify.app
 
 Register : https://codepen.io/aamirindi/pen/JjxGPMd
 
-Side Navbar : https://codepen.io/aamirindi/pen/LYqYzRz
+Cube Spinner : https://codepen.io/aamirindi/pen/OJdPGRb
 
 Horizontal scroll animation : https://zingy-stardust-8bc579.netlify.app
 
-Cube Spinner : https://codepen.io/aamirindi/pen/OJdPGRb
+Side Navbar : https://codepen.io/aamirindi/pen/LYqYzRz
 
 Sidebar : https://codepen.io/aamirindi/pen/gOZxexg?editors=1100
 
