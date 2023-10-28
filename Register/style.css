@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
+body {
+  margin: 0;
+  paddign: 0;
+  box-sizing: border-box;
+}
+.svg {
+  position: absolute;
+  top: 0;
+}
+.svg2 {
+  position: absolute;
+  top: 15px;
+  z-index: -1;
+}
+.svg3 {
+  position: absolute;
+  top: 30px;
+  z-index: -2;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.register {
+  background: #ffffff;
+  z-index: 1;
+  margin: 4vw 0;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border-top: none;
+  box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1),
+    6px 8px 10px rgba(81, 41, 10, 0.1);
+}
+
+.dummy {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  background: #ce8bf4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+}
+
+.dummy img {
+  position: absolute;
+  width: 60px;
+  margin-top: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  padding: 0 3rem 1rem 3rem;
+  gap: 1rem;
+}
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  opacity: 0.6;
+}
+
+input {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #efefef;
+  font-size: 0.8rem;
+}
+input::placeholder {
+  font-family: "Poppins";
+  opacity: 0.5;
+}
+input:focus {
+  outline: none;
+}
+
+.header {
+  font-family: "Poppins";
+}
+
+.header .link {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.header .link .f,
+.g,
+.y {
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: 600;
+}
+
+.content .header p {
+  margin-top: 10px;
+  font-size: 0.7rem;
+  opacity: 0.3;
+}
+
+.f {
+  color: #4e69a2;
+}
+
+.g {
+  color: #e26758;
+}
+
+.y {
+  color: #6b35aa;
+}
+
+button {
+  border: none;
+  padding: 8px 16px;
+  background-color: transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #df72f4, rgba(203, 87, 245, 1));
+  font-family: "Ubuntu";
+  letter-spacing: 0.01rem;
+  font-weight: 600;
+  color: white;
+  box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1),
+    6px 8px 10px rgba(81, 41, 10, 0.1);
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:active {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 2px 5px rgba(81, 41, 10, 0.15),
+    0px 1px 1px rgba(81, 41, 10, 0.15);
+  transform: translateY(0.125rem);
+}
+
+.content p span {
+  color: blue;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.content p {
+  margin: 5px;
+  font-family: "Poppins";
+  font-size: 0.7rem;
+  opacity: 0.3;
+}
