@@ -8,8 +8,6 @@ Cube Spinner : https://codepen.io/aamirindi/pen/OJdPGRb
 
 Input Animation : https://codepen.io/aamirindi/pen/mdvBLmv
 
-Horizontal scroll animation : https://zingy-stardust-8bc579.netlify.app
-
 Side Navbar : https://codepen.io/aamirindi/pen/LYqYzRz
 
 Sidebar : https://codepen.io/aamirindi/pen/gOZxexg?editors=1100
@@ -26,4 +24,4 @@ Clock : https://codepen.io/aamirindi/pen/eYxyemL
 
 Animated Background Form : https://codepen.io/aamirindi/pen/PoVELKp
 
-Input Animation : https://codepen.io/aamirindi/pen/mdvBLmv
+Horizontal scroll animation : https://zingy-stardust-8bc579.netlify.app
