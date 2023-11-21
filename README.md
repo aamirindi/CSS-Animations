@@ -24,4 +24,6 @@ Clock : https://codepen.io/aamirindi/pen/eYxyemL
 
 Animated Background Form : https://codepen.io/aamirindi/pen/PoVELKp
 
-Horizontal scroll animation : https://zingy-stardust-8bc579.netlify.app
+Horizontal animation : https://zingy-stardust-8bc579.netlify.app
+
+Horizontal scroll : https://codepen.io/aamirindi/pen/XWoBPaj?editors=1100
