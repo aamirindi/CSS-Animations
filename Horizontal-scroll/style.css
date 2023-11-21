@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  font-family: "Poppins";
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-height: 100vh;
+}
+
+.cont {
+  width: 100%;
+  height: 220px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff #e5e5e5;
+}
+
+.cont::-webkit-scrollbar {
+  width: 6px;
+}
+
+.cont::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+.cont::-webkit-scrollbar-thumb {
+  background-color: #b675ebff;
+  border-radius: 10px;
+}
+
+.cont::-webkit-scrollbar-thumb:hover {
+  background-color: #6b35aaff;
+  transition: background-color 0.3s ease;
+}
+
+.item {
+  background-color: #dbc7edff;
+  border-radius: 15px;
+  margin: 5px 5px;
+  width: 220px;
+  padding: 10px;
+  box-shadow: -2px 4px 5px rgba(81, 41, 10, 0.1),
+    2px 4px 5px rgba(81, 41, 10, 0.1);
+  font-size: 13px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.flex-item {
+  flex: 0 0 auto;
+}
