@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins&family=Ubuntu&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #dfdfe5;
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1),
+      6px 8px 10px rgba(81, 41, 10, 0.1);
+    border-radius: 20px;
+
+    .left {
+      display: flex;
+      img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+      p {
+        position: absolute;
+        margin: 10px 0 0 30px;
+        font-size: 1.2rem;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+        span {
+          font-weight: 400;
+          font-style: italic;
+        }
+      }
+    }
+    .right {
+      padding: 50px;
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Ubuntu", sans-serif;
+        background-color: #dfdfe5;
+        padding: 20px 50px 30px 50px;
+        border-radius: 10px;
+        box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1),
+          6px 8px 10px rgba(81, 41, 10, 0.1);
+        font-weight: 600;
+        h2 {
+          text-align: center;
+          margin-bottom: 30px;
+          font-weight: 600;
+        }
+        label {
+          margin: 5px;
+          font-size: 0.9rem;
+          margin: 10px 0 10px 0;
+        }
+        input {
+          border: none;
+          padding: 5px;
+          border-radius: 5px;
+        }
+        button {
+          border: none;
+          border-radius: 5px;
+          margin-top: 20px;
+          padding: 5px;
+          width: 100%;
+          background-color: #007cc7;
+          color: white;
+          font-family: "Ubuntu", sans-serif;
+          font-weight: 500;
+        }
+      }
+      a {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+        margin-top: 20px;
+        font-weight: 600;
+      }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .content {
+      border-radius: none;
+      flex-direction: column;
+
+      .left {
+        img {
+          border-radius: 0px;
+        }
+      }
+      .right {
+        background-color: #dfdfe5;
+        border-radius: none;
+        form {
+          width: 100%;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+}
