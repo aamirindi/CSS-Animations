@@ -29,3 +29,5 @@ Horizontal animation : https://zingy-stardust-8bc579.netlify.app
 Horizontal scroll : https://codepen.io/aamirindi/pen/XWoBPaj?editors=1100
 
 Traveling Login : https://codepen.io/aamirindi/pen/BaMxxer?editors=1100
+
+Video Player (Test) : https://cerulean-squirrel-536bf9.netlify.app
